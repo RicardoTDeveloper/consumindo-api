@@ -1,6 +1,6 @@
 
 const api = axios.create({
-    baseURL: 'http://207.148.13.90:8091/portal-api/cst',
+    baseURL: 'https://cors-anywhere.herokuapp.com/http://207.148.13.90:8091/portal-api/cst',
     headers: {
         'content-type': 'application/json',
     }
@@ -21,7 +21,7 @@ var vm = new Vue({
     },
 
     methods: {  
-        
+
         editCST(exato) {
             
             var filterResultado = this.todos.filter((value, index, array) => {
