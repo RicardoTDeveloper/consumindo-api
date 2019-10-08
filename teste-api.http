@@ -1,0 +1,21 @@
+
+POST http://207.148.13.90:8091/portal-api/login HTTP/1.1
+
+{"username":"admin@admin","password":"myp7@admin#2019"}
+
+###
+
+GET http://207.148.13.90:8091/portal-api/cst/listar HTTP/1.1
+Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbiIsImV4cCI6MTU3MTQxMTY2M30.rgt5ZxsJ2aMxLn1IJdzVsTHTiFIvojuMqc80ebARKJ2rQM0vSrQbJFdm4B3gsbENsg12RGCQwe0buFvKimtq4g
+
+###
+
+
+POST http://207.148.13.90:8091/portal-api/cst/criar HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbiIsImV4cCI6MTU3MTQxMTY2M30.rgt5ZxsJ2aMxLn1IJdzVsTHTiFIvojuMqc80ebARKJ2rQM0vSrQbJFdm4B3gsbENsg12RGCQwe0buFvKimtq4g
+
+{
+    "codigo": "asdas",
+    "descricao": "teste"
+}
