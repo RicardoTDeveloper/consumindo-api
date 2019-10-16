@@ -1,5 +1,5 @@
 # consumindo-api
-Realizando um teste 
+Realizando um CRUD (Consumindo API) 
 
 **Resultado:** https://ricardotdeveloper.github.io/consumindo-api/
 
